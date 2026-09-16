@@ -8,7 +8,6 @@ $('h1').click(function () {
   $(this).text('You clicked me!')
 })
 
-
 $('button').addClass('button')
 
 $('button').click(function () {
@@ -19,3 +18,11 @@ $('button').click(function () {
 })
 
 $('button').html('Click Me!')
+
+$('img').addClass('align')
+
+$('a').attr('href', 'https://www.yahoo.com')
+
+$('img').click(function () {
+  console.log($('img').attr('src', 'images.jpg'))
+})
