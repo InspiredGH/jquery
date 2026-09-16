@@ -6,6 +6,7 @@ $('h1').on('mouseover', function () {
   $(this).css('border', 'red 2px solid')
   $(this).removeClass('margin')
   $(this).text('You hovered over me!')
+  $('h1').addClass('button')
 })
 
 $('button').addClass('button')
@@ -35,3 +36,11 @@ $('#inputField').keypress(function (event) {
     console.log('You pressed the enter key!')
   }
 })
+
+$('h1').before('<marquee>Welcome to my website!</marquee> <hr></hr>')
+
+/*$('h1').after('<button>Final Button</button>')
+
+$('h1').prepend('<button>New Button</button>')
+
+$('h1').append('<button>Another Button</button>')*/
